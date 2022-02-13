@@ -8,21 +8,21 @@ const Header = () => {
         <React.Fragment>
             <div className='header'>
                 <div className='particles'>
-                  <div className='particleComp'></div>
+                    <div className='particleComp'></div>
                     <div className='fullname'>
                         <h1>
-                            <Typewriter 
-                              options={{
-                                  strings: ['Priya', 'Singh'],
-                                  autoStart:true,
-                                  loop:true
-                              }}
+                            <Typewriter
+                                options={{
+                                    strings: ['Priya', 'Singh'],
+                                    autoStart: true,
+                                    loop: true
+                                }}
                             />
                         </h1>
                     </div>
-                <div className='cv'>
-                    <span><b>CV:</b> <a href='#' target='_blank' rel='noreferrer'><i className='fas fa-file-pdf'></i></a></span>
-                </div>
+                    <div className='cv'>
+                        <span><b>CV:</b> <a href='/cv' target='_blank' rel='noreferrer'><i className='fas fa-file-pdf'></i></a></span>
+                    </div>
                 </div>
             </div>
 
@@ -44,8 +44,8 @@ const Header = () => {
 
                         {/* single info */}
                         <div className='info'>
-                            <label htmlFor='email'>E-mail:</label>
-                            <h4>priyapragya0710@gmail.com</h4>
+                                <label htmlFor='email'>E-mail:</label>
+                                <h4>priyapragya0710@gmail.com</h4>
                         </div>
 
                     </div>

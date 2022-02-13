@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Element } from 'react-scroll';
 
 import Header from './components/homepages/header';
 import Navbar from './components/homepages/navbar';
@@ -26,10 +27,11 @@ import './App.css';
 function App() {
   return (
    
-     <div className="" >
+     <div className="App" >
        <Router>
 
 <Navbar />
+
   <Routes>
 
     <Route exact path="/" element = {[<Header/>,<About/>,<Education/>,<Projects/>,<Experience />,<Contact/>]} /> 

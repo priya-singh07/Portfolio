@@ -79,10 +79,10 @@ form button:hover{
     width: 400px;
     margin: 0 auto;
     position: absolute;
-    top: 100px;
+    top: 5px;
     left: 50%;
     display: block;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 
 }
 
@@ -205,4 +205,45 @@ form button:hover{
         justify-content: space-between;
     }
     
+}
+
+/* upload */
+
+.upload {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.upload input {
+    align-self: flex-start;
+    width: 200px;
+}
+
+#file_img {
+    position: relative;
+    width: 115px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.upload img {
+    width: 115px;
+    display: block;
+    height: 90px;
+}
+
+#file_img span{
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    cursor: pointer;
+    color: crimson;
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
 }

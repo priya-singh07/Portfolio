@@ -38,8 +38,7 @@ const Navbar = () => {
                     <li><Link to="/">Projects</Link></li>
                     <li><Link to="/">Experience</Link></li>
                     <li><Link to="/">Contact</Link></li>
-                    <li className='admin'><Link to="/">Admin</Link></li>
-                    {/* <li><Link to="/">Admin</Link></li> */}
+                    <li><Link to="/">Admin</Link></li>
                     <li><Link to="/login">Login</Link></li>
                 </ul>
             </div>

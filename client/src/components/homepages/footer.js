@@ -6,7 +6,9 @@ const Footer = () => {
     return (
         <React.Fragment>
             <div className='main-title'>
-                <h2 className='title contact-title'></h2>
+                <h2 className='title contact-title'>
+                    Contact
+                </h2>
             </div>
             <div className='main-contact'>
                 <div className='contact'>

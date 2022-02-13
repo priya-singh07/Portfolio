@@ -181,7 +181,21 @@ a{
    
 }
 
+@media screen and (max-width:664px) {
+    
+.personalInfo-center{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
+.personalInfo-img img{
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: auto;    
+}
+
+}
 
 @media screen and (min-width:960px) {
     .fullname{
