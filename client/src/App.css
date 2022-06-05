@@ -149,7 +149,7 @@ a{
 
 .personalInfo-img img{
     width: 155px;
-    height: 160px;
+    height: 155px;
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: 5px;
@@ -190,7 +190,7 @@ a{
 
 .personalInfo-img img{
     width: 75%;
-    height: 100%;
+    height: 75%;
     display: block;
     margin: auto;    
 }
@@ -203,7 +203,7 @@ a{
     }
 
     .fullname h1{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .cv{
@@ -253,18 +253,18 @@ a{
 
 @media screen and (min-width: 860px) {
 
-    .education-center{
+    /* .education-center{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
+    } */
     
     .single-education{
         flex: 0 0 calc(50% - 20px);
         margin-right: 0;
         margin-left: 0;
         padding: 10px;
-        clip-path: polygon(0 0,100% 0,95% 100%,0 100%);
+        clip-path: polygon(0 0,100% 0,97% 100%,0 100%);
     }
 }
 

@@ -9,23 +9,23 @@ const Education = () => {
                 <div className='education-center'>
                     {/* single education */}
                     <div className='single-education'>
-                    <p>Bachelor's of Technology from NIT Jamshedpur</p>
+                    <p>B.Tech(Hons.) from National Institute of Technology, Jamshedpur (2019-2023)</p>
                     </div>
 
                     {/* single education */}
                     <div className='single-education'>
-                    <p>Bachelor's of Technology from NIT Jamshedpur</p>
+                    <p>Class 12 from Vidya Bharati Chinmaya Vidyalaya, Jamshedpur - 2018</p>
                     </div>
 
                     {/* single education */}
                     <div className='single-education'>
-                    <p>Bachelor's of Technology from NIT Jamshedpur</p>
+                    <p>Class 10 from Shah Faiz Public School, Ghazipur (U.P.) - 2016</p>
                     </div>
 
                     {/* single education */}
-                    <div className='single-education'>
+                    {/* <div className='single-education'>
                     <p>Bachelor's of Technology from NIT Jamshedpur</p>
-                    </div>
+                    </div> */}
                     
                 </div>
             </div>

@@ -32,9 +32,9 @@ const Footer = () => {
                          <div className='contact-center-media'>
                             <h3>Media</h3>
                             <div className='contact-media'>
-                                <li><a href='#'><i className='fab fa-youtube-square'></i>Youtube</a></li>
-                                <li><a href='#'><i className='fab fa-facebook-square'></i>Facebook</a></li>
-                                <li><a href='#'><i className='fab fa-linkedin'></i>Linkedin</a></li>
+                                <li><a href='https://github.com/priya-singh07'><i className='fab fa-github-square'></i>Github</a></li>
+                                {/* <li><a href='#'><i className='fab fa-facebook-square'></i>Facebook</a></li> */}
+                                <li><a href='https://www.linkedin.com/in/priya-singh-1b3124201/'><i className='fab fa-linkedin'></i>Linkedin</a></li>
                                 
                             </div>
                         </div>

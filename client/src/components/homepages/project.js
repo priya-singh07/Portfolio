@@ -1,5 +1,7 @@
 import React from 'react';
 import photo from '../../images/priya.jpg';
+import photo1 from '../../images/ss1.jpeg';
+
 
 const Project = () => {
     return (
@@ -10,7 +12,7 @@ const Project = () => {
                     {/* single project */}
                     <div className='single-project'>
                         <div className='single-project-img'>
-                            <img src={photo} alt='' />
+                            <img src={photo1} alt='' />
                         </div>
                         <div className='single-project-info'>
                             <h3>SmartPhone Project</h3>

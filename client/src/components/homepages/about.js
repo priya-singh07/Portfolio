@@ -10,17 +10,13 @@ const About = () => {
                 {/* about */}
                 <div className='about-info'>
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-                    versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page 
-                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
-                    as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages 
-                    and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web 
-                    sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
-                    (injected humour and the like).
+                    Hey reader!💙
+                    <p></p>
+I am Priya Singh, an undergraduate student from NIT Jamshedpur with major inclination towards Coding and Web Development👩‍💻
+I am active on different coding platforms such as Leetcode, GFG, Hackerrank, Hackerearth and giving contests too📈. I have good problem solving ability and DSA skills and I'm working on myself to improve better🕺.
+I am also inclined towards Web Development and have learnt the techstacks including ReactJS, Nodejs, MySQL, MongoDB and made some projects on it which you can see on my github profile(featured section). 
+Apart from this, I am also interested in designing. I know the basics of Adobe Photoshop and had also made some posters✨.
+I am a keen learner doing things perfectly and always want to learn new things to enlighten my knowledge and skills💡.
                     </p>
                 </div>
             </div>

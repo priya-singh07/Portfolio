@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../images/priya.jpg';
+import profile from '../../images/priya1.jpg';
 //import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
 
@@ -13,7 +13,7 @@ const Header = () => {
                         <h1>
                             <Typewriter
                                 options={{
-                                    strings: ['Priya', 'Singh'],
+                                    strings: ['Web Developer', 'Loves to Code'],
                                     autoStart: true,
                                     loop: true
                                 }}
@@ -21,7 +21,7 @@ const Header = () => {
                         </h1>
                     </div>
                     <div className='cv'>
-                        <span><b>CV:</b> <a href='/cv' target='_blank' rel='noreferrer'><i className='fas fa-file-pdf'></i></a></span>
+                        <span><b>CV:</b> <a href='https://drive.google.com/file/d/1K82LmsV4YGvBEo8KiI43gBi1jZQocEmt/view' target='_blank' rel='noreferrer'><i className='fas fa-file-pdf'></i></a></span>
                     </div>
                 </div>
             </div>
