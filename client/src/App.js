@@ -34,7 +34,7 @@ function App() {
 
   <Routes>
 
-    <Route exact path="/" element = {[<Header/>,<About/>,<Education/>,<Projects/>,<Experience />,<Contact/>]} /> 
+    <Route exact path="/" element = {[<Header/>,<About/>,<Education/>,<Projects/>,<Contact/>]} /> 
 
     <Route path="/login" exact element = {<Login />} > </Route>
 
@@ -46,7 +46,7 @@ function App() {
 
     <Route exact path="/editProject/:id" element = {<EditProjects />} />
 
-    <Route exact path="/editExperience/:id" element = {<EditExperience />} />
+    {/* <Route exact path="/editExperience/:id" element = {<EditExperience />} /> */}
 
     </Routes>
     <Footer />
