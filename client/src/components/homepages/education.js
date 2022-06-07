@@ -1,8 +1,9 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 const Education = () => {
     return (
-        <div className='main-container'>
+        <Element className='main-container-education'>
             <div className='education'>
                 <h2 className='title'>Education</h2>
 
@@ -29,7 +30,7 @@ const Education = () => {
                     
                 </div>
             </div>
-        </div>
+        </Element>
     );
 }
 

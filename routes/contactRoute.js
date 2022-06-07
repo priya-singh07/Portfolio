@@ -9,6 +9,9 @@ router.get('/', (req, res)=>{
 
 router.post('/', (req, res)=>{
 
+
+    let data = req.body;
+
     //smtp
     let smtpTransport = nodemailer.createTransport({
 
@@ -17,7 +20,7 @@ router.post('/', (req, res)=>{
         port: 465,
         //for authenticate
         auth: {
-            user: 'singhpriya070310@gmail.com',
+            user: 'priyapragya0710@gmail.com',
             pass: 'priya'
         }
     })
@@ -25,7 +28,7 @@ router.post('/', (req, res)=>{
     let mailOptions = {
 
         from: data.email,
-        to: 'singhpriya070310@gmail.com',
+        to: 'priyapragya0710@gmail.com',
         subject: `message from ${data.name}`,
         html: `
         <h3>Informations</h3>

@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Element } from 'react-scroll';
 
 import Header from './components/homepages/header';
 import Navbar from './components/homepages/navbar';
 import About from './components/homepages/about';
 import Education from './components/homepages/education';
-import Experience from './components/homepages/experience';
+// import Experience from './components/homepages/experience';
 import Projects from './components/homepages/project';
 import Contact from './components/homepages/contact';
 import Footer from './components/homepages/footer';
@@ -18,7 +17,7 @@ import Admin from './components/adminComponent/admin';
 import EditAbout from './components/editComponent/editAbout';
 import EditEducation from './components/editComponent/editEducation';
 import EditProjects from './components/editComponent/editProject';
-import EditExperience from './components/editComponent/editExperience';
+// import EditExperience from './components/editComponent/editExperience';
 
 import './App.css';
 
@@ -33,12 +32,11 @@ function App() {
 <Navbar />
 
   <Routes>
-
     <Route exact path="/" element = {[<Header/>,<About/>,<Education/>,<Projects/>,<Contact/>]} /> 
 
-    <Route path="/login" exact element = {<Login />} > </Route>
+    {/* <Route exact path="/login" element = {<Login />} > </Route>
 
-    <Route exact path="/admin" element = {<Admin />} />
+    <Route exact path="/admin" element = {<Admin />} /> */}
 
     <Route exact path="/editAbout/:id" element = {<EditAbout />} />
 
@@ -49,6 +47,7 @@ function App() {
     {/* <Route exact path="/editExperience/:id" element = {<EditExperience />} /> */}
 
     </Routes>
+
     <Footer />
 
     </Router>

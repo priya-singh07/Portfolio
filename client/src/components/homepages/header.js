@@ -2,10 +2,12 @@ import React from 'react';
 import profile from '../../images/priya1.jpg';
 //import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
+import { Element } from 'react-scroll';
 
 const Header = () => {
     return (
         <React.Fragment>
+            <Element className='main-container-home'>
             <div className='header'>
                 <div className='particles'>
                     <div className='particleComp'></div>
@@ -32,14 +34,14 @@ const Header = () => {
 
                         {/* single info */}
                         <div className='info'>
-                            <label htmlFor='name'>Fullname:</label>
+                            <label htmlFor='name'>Name:</label>
                             <h4>Priya Singh</h4>
                         </div>
 
                         {/* single info */}
                         <div className='info'>
                             <label htmlFor='occupation'>Occupation:</label>
-                            <h4>Engineer</h4>
+                            <h4>Upcoming SDE</h4>
                         </div>
 
                         {/* single info */}
@@ -55,6 +57,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+            </Element>
         </React.Fragment>
     );
 }
