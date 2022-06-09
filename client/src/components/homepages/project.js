@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import photo from '../../images/priya.jpg';
-import photo1 from '../../images/ss1.jpeg';
+import medical from '../../images/ss1.jpeg';
+import stalkword from '../../images/sw.jpeg';
 import { Element } from 'react-scroll';
 
 
@@ -14,7 +15,7 @@ const Project = () => {
                     {/* single project */}
                     <div className='single-project'>
                         <div className='single-project-img'>
-                            <img src={photo1} alt='' />
+                            <img src={medical} alt='' />
                         </div>
                         <div className='single-project-info'>
                             <h3>Medical Store Management</h3>
@@ -30,14 +31,16 @@ const Project = () => {
                     {/* single project */}
                     <div className='single-project'>
                         <div className='single-project-img'>
-                            <img src={photo} alt='' />
+                            <img src={stalkword} alt='' />
                         </div>
                         <div className='single-project-info'>
-                            <h3>SmartPhone Project</h3>
+                            <h3>Stalk Word</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
                     type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
                     electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Hosted URL:- <a href='https://stalk-word-441b0.web.app/' target='_blank'>https://stalk-word-441b0.web.app/</a></p>
+                    <p>Github Repo:- <a href='https://github.com/priya-singh07/Stalk-Word' target='_blank'>https://github.com/priya-singh07/Stalk-Word</a></p>
                         </div>
                     </div>
 
