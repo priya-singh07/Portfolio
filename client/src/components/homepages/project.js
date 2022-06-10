@@ -19,12 +19,10 @@ const Project = () => {
                         </div>
                         <div className='single-project-info'>
                             <h3>Medical Store Management</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged.</p>
+                            <p>A web app to store all the medicines information in the shop, its availabitity, quantity, price and much more. Shop owner can create bill also for the customers and can keep the past records too.<br />
+                            TechStacks used:- Reactjs, Node.js, Express.js, MySQL</p><br />
                     <p>Hosted URL:- <a href='https://rama-medicals.web.app' target='_blank'>https://rama-medicals.web.app</a></p>
-                    <p>Github Repo:- </p>
+                    <p>Github Repo:- <a href='https://github.com/priya-singh07/Medical-Store-Management' target='_blank'>https://github.com/priya-singh07/Medical-Store-Management</a></p>
                         </div>
                     </div>
 
@@ -35,11 +33,8 @@ const Project = () => {
                         </div>
                         <div className='single-project-info'>
                             <h3>Stalk Word</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged.</p>
-                    <p>Hosted URL:- <a href='https://stalk-word-441b0.web.app/' target='_blank'>https://stalk-word-441b0.web.app/</a></p>
+                            <p>A web app where one can search any particular word and get its meaning along with synonyms, examples and its pronunciation. It has also the choice of changing the colour mode to light or dark.<br />TechStacks used:- Reactjs</p>
+                    <br /><p>Hosted URL:- <a href='https://stalk-word-441b0.web.app/' target='_blank'>https://stalk-word-441b0.web.app/</a></p>
                     <p>Github Repo:- <a href='https://github.com/priya-singh07/Stalk-Word' target='_blank'>https://github.com/priya-singh07/Stalk-Word</a></p>
                         </div>
                     </div>
@@ -50,11 +45,11 @@ const Project = () => {
                             <img src={photo} alt='' />
                         </div>
                         <div className='single-project-info'>
-                            <h3>SmartPhone Project</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged.</p>
+                            <h3>Travel Map</h3>
+                            <p>A MERN app where you can register yourself and get access to give the ratings/stars to different locations across the world on the map.</p>
+                            <p>TechStacks used:- Reactjs, Node.js, Express.js, MongoDB</p>
+                    <br /><p>Hosted URL:- <a href='' target='_blank'></a></p>
+                    <p>Github Repo:- <a href='https://github.com/priya-singh07/travel-map' target='_blank'>https://github.com/priya-singh07/travel-map</a></p>
                         </div>
                     </div>
 
