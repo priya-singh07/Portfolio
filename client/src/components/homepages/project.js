@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import photo from '../../images/priya.jpg';
 import medical from '../../images/ss1.jpeg';
 import stalkword from '../../images/sw.jpeg';
+import map from '../../images/map.jpg';
 import { Element } from 'react-scroll';
 
 
@@ -42,7 +43,7 @@ const Project = () => {
                     {/* single project */}
                     <div className='single-project'>
                         <div className='single-project-img'>
-                            <img src={photo} alt='' />
+                            <img src={map} alt='' />
                         </div>
                         <div className='single-project-info'>
                             <h3>Travel Map</h3>
