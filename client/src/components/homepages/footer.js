@@ -17,7 +17,7 @@ const Footer = () => {
         <React.Fragment>
             <div className='main-title'>
                 <h2 className='title contact-title'>
-                    Contact
+                    {/* Contact */}
                 </h2>
             </div>
             <div className='main-contact'>
