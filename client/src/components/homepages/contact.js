@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './contact.css';
 import photo from '../../images/contact1.jpg';
 import { Element } from 'react-scroll';
@@ -7,33 +7,33 @@ import load2 from '../../images/load.gif';
 
 const Contact = () => {
 
-    const[name, setName]  = useState('');
-    const[email, setEmail] = useState('');
-    const[message, setMessage] = useState('');
-    const[banner, setBanner] = useState('');
-    const[bool, setBool] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [banner, setBanner] = useState('');
+    const [bool, setBool] = useState(false);
 
     //handle inputs
-    const handleNameChange=(e)=>{
+    const handleNameChange = (e) => {
         setName(e.target.value);
         // console.log(name);
     }
 
-    const handleEmailChange=(e)=>{
+    const handleEmailChange = (e) => {
         setEmail(e.target.value);
         // console.log(email);
     }
 
-    const handleMessageChange=(e)=>{
+    const handleMessageChange = (e) => {
         setMessage(e.target.value);
         // console.log(message);
     }
 
     //submit form
-    const formSubmit=(e)=>{
+    const formSubmit = (e) => {
         e.preventDefault();
 
-        let data={
+        let data = {
             name: name,
             email: email,
             message: message
@@ -41,10 +41,10 @@ const Contact = () => {
 
         setBool(true);
 
-        axios.post('/contact', data).then(res=>{
+        axios.post('/contact', data).then(res => {
             setBanner(res.data.msg);
             setBool(false);
-            setTimeout(()=>{
+            setTimeout(() => {
                 setBanner('');
             }, 2000)
 
@@ -52,7 +52,7 @@ const Contact = () => {
             setEmail('');
             setMessage('');
 
-        }).catch(err=>console.log(err))
+        }).catch(err => console.log(err))
     }
 
 
@@ -61,28 +61,31 @@ const Contact = () => {
             <div className='contactForm'>
                 <h2 className='title'>Contact</h2>
                 <div className='contactForm-center'>
-                    <div className='contact_form'>
+                    {/* <div className='contact_form'>
                         <form onSubmit={formSubmit}>
                             <p>{banner}</p>
                             <label htmlFor='name'>Name</label>
-                            <input type='text' placeholder='import name...' required value={name} onChange={handleNameChange}/>
+                            <input type='text' placeholder='import name...' required value={name} onChange={handleNameChange} />
 
                             <label htmlFor='email'>Email</label>
-                            <input type='email' placeholder='import email...'  value={email} onChange={handleEmailChange} />
+                            <input type='email' placeholder='import email...' value={email} onChange={handleEmailChange} />
 
                             <label htmlFor='message'>Message</label>
                             <textarea type='text' placeholder='import contact reason...' name='message' id='' value={message} onChange={handleMessageChange} />
 
                             <div className='send-btn'>
-                                <button type='submit'>Send{bool ?<b className='load'><img src={load2} alt='' /></b>: ''}</button>
-                            </div>
+                                <a href='mailto:priyapragya0710@gmail.com ? subject=Email from Portfolio'><button type='submit'>Send a mail</button></a> */}
+                                {/* <button type='submit'>Send{bool ?<b className='load'><img src={load2} alt='' /></b>: ''}</button> */}
+                            {/* </div>
                         </form>
-                    </div>
+                    </div> */}
 
                     {/* contact info */}
                     <div className='contact-info'>
-                        <h4>Send your message</h4>
-                        <img src={photo} alt='' />
+                        <a href='mailto:priyapragya0710@gmail.com ? subject=Email from Portfolio'>
+                            <h4>Send a message</h4>
+                            <img src={photo} alt='' />
+                        </a>
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ const Project = () => {
                             <p>This is my portfolio containing all my details including my schooling background, my projects, my skills and much more.</p>
                             <p>TechStacks used:- Reactjs, Node.js, Express.js, MongoDB</p>
                     <br /><p>Hosted URL:- <a href='' target='_blank'></a></p>
-                    <p>Github Repo:- <a href='' target='_blank'></a></p>
+                    <p>Github Repo:- <a href='https://github.com/priya-singh07/Portfolio' target='_blank'>https://github.com/priya-singh07/Portfolio</a></p>
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ const Project = () => {
                             <h3>Travel Map</h3>
                             <p>A MERN app where you can register yourself and get access to give the ratings/stars to different locations across the world on the map.</p>
                             <p>TechStacks used:- Reactjs, Node.js, Express.js, MongoDB</p>
-                    <br /><p>Hosted URL:- <a href='' target='_blank'></a></p>
+                    {/* <br /><p>Hosted URL:- <a href='' target='_blank'></a></p> */}
                     <p>Github Repo:- <a href='https://github.com/priya-singh07/travel-map' target='_blank'>https://github.com/priya-singh07/travel-map</a></p>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Project = () => {
                         <div className='single-project-info'>
                             <h3>Stalk Word</h3>
                             <p>A web app where one can search any particular word and get its meaning along with synonyms, examples and its pronunciation. It has also the choice of changing the colour mode to light or dark.<br />TechStacks used:- Reactjs</p>
-                    <br /><p>Hosted URL:- <a href='https://stalk-word-441b0.web.app/' target='_blank'>https://stalk-word-441b0.web.app/</a></p>
+                    {/* <br /><p>Hosted URL:- <a href='https://stalk-word-441b0.web.app/' target='_blank'>https://stalk-word-441b0.web.app/</a></p> */}
                     <p>Github Repo:- <a href='https://github.com/priya-singh07/Stalk-Word' target='_blank'>https://github.com/priya-singh07/Stalk-Word</a></p>
                         </div>
                     </div>
